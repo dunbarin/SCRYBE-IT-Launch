@@ -1106,12 +1106,11 @@ background: rgba(18, 39, 113, 0.12);
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
-
-
 .input button:hover{
     color: #2851E3;
 }
 
+}
 
 .subscription-text{
     /* position: absolute;  */
