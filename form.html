@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+
+		<div class="buttons">
+			<label for="chbox" class="login btn"><span>Login</span></label>
+			<label for="chbox" class="SignUp btn"><span>SignUp</span></label>
+		</div>
+
+		<input type="checkbox" id="chbox">	
+		<div class="layer"></div>
+		<div class="layer2"></div>
+		<div class="login_form">
+			<br>
+			<label for="Email">Email/Username</label>
+			<input type="text" placeholder="Enter email/username here"><br>
+			<label for="password">Password</label>
+			<input type="password" placeholder="Enter password here" minlength="7" required><br>
+			<button class="submit">Login</button>
+			<div class="check-box">
+				<!-- <div class="mark">
+					<input class="box" type="checkbox" required>
+					<label for="remember">Remember me</label>
+				</div> -->
+				<a class="forgot" href="#">Forgot Password</a>
+			</div>
+			<div class="divider">
+			<hr>
+			<span class="tag">or</span>
+			<hr>
+			</div>
+			
+			<div class="icons">
+				<a href="#" class="fa fa-facebook">Continue with Facebook</a>
+				<a href="#" class="fa fa-google">Continue with Google</a>
+				<a href="#" class="fa fa-Apple">Continue with Apple</a>
+			</div>
+		</div>
+
+		<div class="SignUp_form">
+			<label for="Name">Full Name</label>
+			<input type="text" placeholder="Name"required><br>
+			<label for="Email">Email/Username</label>
+			<input type="email" placeholder="Email"><br>
+			<label for="password">Password</label>
+			<input type="password" placeholder="Password" minlength="7" required><br>
+			<label for="confirm-password">Confirm Password</label>
+			<input type="password" placeholder="Confirm Password" minlength="7" required><br>
+			<button class="submit">SignUp</button>
+			<div class="divider">
+				<hr>
+				<span class="tag">or</span>
+				<hr>
+			</div>
+			<div class="icons">
+				<a href="#" class="fa fa-facebook">Continue with Facebook</a>
+				<a href="#" class="fa fa-google">Continue with Google</a>
+				<a href="#" class="fa fa-apple">Continue with Apple</a>
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
