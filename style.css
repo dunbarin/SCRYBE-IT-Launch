@@ -955,12 +955,12 @@ aside img {
     max-height: auto;
     width: 1440px;
     border-radius: 0px;
-   background: hsla(210, 97%, 14%, 1);
+    background: #1976D3;    
     padding: px;
 }
 
 .footer-body{
-       background: hsla(210, 97%, 14%, 1);
+       background: #1976D3;
        padding-bottom: 20px;
 }
 
@@ -1033,6 +1033,7 @@ background: rgba(18, 39, 113, 0.12);
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
+
 
 .input button:hover{
     color: #2851E3;
