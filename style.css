@@ -955,12 +955,12 @@ aside img {
     max-height: auto;
     width: 1440px;
     border-radius: 0px;
-    background: #1976D3;    
+   background: hsla(210, 97%, 14%, 1);
     padding: px;
 }
 
 .footer-body{
-       background: #1976D3;
+       background: hsla(210, 97%, 14%, 1);
        padding-bottom: 20px;
 }
 
