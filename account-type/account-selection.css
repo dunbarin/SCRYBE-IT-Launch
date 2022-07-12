@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+body{
+    background-color:hsla(210, 97%, 14%, 1);
+}
+
+.account-box{
+    height: 592px;
+    width: 457px;
+    padding: 31px 40px 41px 40px;
+    background-color:hsla(0, 0%, 100%, 1);
+    border: none ;
+}
+
+.account-box a img{
+    height: 15.84000015258789px;
+    width: 12.097500324249268px;
+}
+
+.account-box a img:hover{
+    background-color: rgb(191, 192, 194);color: #1976D3;
+}
+
+.account-box .box-text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.account-box.box-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+ .account-box button {
+    height: 50px;
+    width: 376px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #1976D3;
+    border-radius: 5px;
+    border: none;
+    color: hsla(0, 0%, 100%, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+ }
+
+ .account-box button:hover{
+    background-color: rgb(46, 117, 189);
+ }
+
+
+/* Account-type section */
+/* Account-type section */
+/* Account-type section */
+
+.li-buttons .account-type-button{
+    width: 376px;
+    height: 131px; 
+    border-radius: 5px;
+    border: none;
+    background-color: hsla(0, 0%, 100%, 1);
+    box-shadow: 0px -4px 8px 0px hsla(0, 0%, 0%, 0.09);
+    cursor: pointer;
+    color: hsla(0, 0%, 0%, 1);
+    padding: 14px 75px 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li-buttons .account-type-button:hover{
+    background-color: rgb(233, 232, 232);
+    color: rgb(46, 117, 189);
+}
+
+.account-box ul {
+    list-style: none;
+}
